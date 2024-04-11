@@ -1,0 +1,23 @@
+
+.board-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.board{
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(3, 100px);
+    gap: 2px;
+    padding: 5px;
+    width: 304px;
+    margin: 0 auto;
+}
+.block{
+    background-color: #e585ae;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2em;
+}
